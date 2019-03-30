@@ -193,4 +193,12 @@ PHONE_NUMBER,ACTIVATION_DATE,DEACTIVATION_DATE
 
 **Data Structure Used:** Associative Array
 
-**Algorithm used:** For sorting [usort](https://www.php.net/manual/en/function.usort.php) which used Quick Sort (Θ(n log(n)).
+**Algorithm used:** Sorting with [usort](https://www.php.net/manual/en/function.usort.php) which used Quick Sort (Θ(n log(n)).
+
+**Time & Space Complexity:** Θ(Y(Z log(Z)))
+
+Where:
+- **X** is the number of Phone Numbers
+- **Y** is the number of Users
+- **Z** is the number of Phone Number / User
+
